@@ -1,0 +1,84 @@
+.ava {
+  color: brown;
+}
+.col2 {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  font-family: system-ui;
+  font-weight: bold;
+  flex-direction: row;
+
+  margin-left: 0%;
+}
+.col1 {
+  padding: 2%;
+  margin-top: 2%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: rgb(206, 245, 245);
+  color: rgb(82, 72, 72);
+  border: 1px solid rgb(242, 242, 248);
+  border-radius: 25px;
+  width: 100%;
+}
+.col3 {
+  padding: 2%;
+}
+.col1:hover {
+  background-color: rgb(219, 219, 170);
+  cursor: pointer;
+}
+.col11 {
+  padding: 1%;
+  display: flex;
+  flex-direction: column;
+  background-color: azure;
+  position: relative;
+  width: 600px;
+  justify-content: space-around;
+}
+.col12 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.col22 {
+  display: flex;
+  flex-direction: row;
+}
+.col33 {
+  display: flex;
+  flex-direction: row;
+}
+.col22:hover,
+.col33:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+.feild {
+  padding-bottom: 20%;
+  margin-top: 2%;
+  width: 100%;
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+.Cancel {
+  background-color: rgb(233, 226, 245);
+  color: black;
+}
+.Add {
+  margin-left: 4%;
+  background-color: rgb(108, 24, 243);
+  color: aliceblue;
+}
+
+.but {
+  display: flex;
+  justify-content: flex-end;
+}
+.but1 {
+  display: flex;
+  justify-content: space-between;
+}
